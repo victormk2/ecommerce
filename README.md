@@ -1,24 +1,5 @@
-# README
+h2. Projeto feito em ruby utilizando Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+h2. Como foi feito?
+h3. Métodos abastratos:
+* foram criados métodos abstratos para aumentar a praticidade na hora da codificação de arquivos padrão como controllers.

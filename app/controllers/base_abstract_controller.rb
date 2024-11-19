@@ -10,7 +10,7 @@ class BaseAbstractController < ApplicationController
   end
 
   def show
-    record = model_class.find_by(get_params)
+    record = get_records.first
 
     if record
       render json: serializer_class.new(record).serializable_hash[:data][:attributes]
