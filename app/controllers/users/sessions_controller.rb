@@ -3,8 +3,7 @@ class Users::SessionsController < Devise::SessionsController
   respond_to :json
   private
   def respond_with(current_user, _opts = {})
-
-    token = request.env['warden-jwt_auth.token']
+    token = request.env["warden-jwt_auth.token"]
 
     render json: {
       status: {
