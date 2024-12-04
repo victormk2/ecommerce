@@ -45,11 +45,6 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_model_serializers (0.10.14)
-      actionpack (>= 4.1)
-      activemodel (>= 4.1)
-      case_transform (>= 0.2)
-      jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
     activejob (7.2.2)
       activesupport (= 7.2.2)
       globalid (>= 0.3.6)
@@ -87,8 +82,6 @@ GEM
     brakeman (6.2.2)
       racc
     builder (3.3.0)
-    case_transform (0.2)
-      activesupport
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -126,7 +119,6 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.8.1)
-    jsonapi-renderer (0.2.2)
     jsonapi-serializer (2.2.0)
       activesupport (>= 4.2)
     jwt (2.9.3)
@@ -255,16 +247,16 @@ GEM
       rubocop-rails
     ruby-progressbar (1.13.0)
     securerandom (0.3.2)
-    sqlite3 (2.2.0-aarch64-linux-gnu)
-    sqlite3 (2.2.0-aarch64-linux-musl)
-    sqlite3 (2.2.0-arm-linux-gnu)
-    sqlite3 (2.2.0-arm-linux-musl)
-    sqlite3 (2.2.0-arm64-darwin)
-    sqlite3 (2.2.0-x86-linux-gnu)
-    sqlite3 (2.2.0-x86-linux-musl)
-    sqlite3 (2.2.0-x86_64-darwin)
-    sqlite3 (2.2.0-x86_64-linux-gnu)
-    sqlite3 (2.2.0-x86_64-linux-musl)
+    sqlite3 (2.4.0-aarch64-linux-gnu)
+    sqlite3 (2.4.0-aarch64-linux-musl)
+    sqlite3 (2.4.0-arm-linux-gnu)
+    sqlite3 (2.4.0-arm-linux-musl)
+    sqlite3 (2.4.0-arm64-darwin)
+    sqlite3 (2.4.0-x86-linux-gnu)
+    sqlite3 (2.4.0-x86-linux-musl)
+    sqlite3 (2.4.0-x86_64-darwin)
+    sqlite3 (2.4.0-x86_64-linux-gnu)
+    sqlite3 (2.4.0-x86_64-linux-musl)
     stringio (3.1.2)
     thor (1.3.2)
     timeout (0.4.2)
@@ -301,7 +293,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  active_model_serializers
   bootsnap
   brakeman
   debug
